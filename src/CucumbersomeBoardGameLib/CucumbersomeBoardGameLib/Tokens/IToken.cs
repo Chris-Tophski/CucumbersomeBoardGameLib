@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace CucumbersomeBoardGameLib.Players
 {
+	/// <summary>
+	/// Representation of a token, optionally assigned to a player, board, meeple etc.
+	/// </summary>
 	public interface IToken
 	{
 

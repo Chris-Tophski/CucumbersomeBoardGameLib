@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace CucumbersomeBoardGameLib.Cards
 {
+	/// <summary>
+	/// Container for the content of a card, back and front sides
+	/// </summary>
 	public interface ICardContent
 	{
 

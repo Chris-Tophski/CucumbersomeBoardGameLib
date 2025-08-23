@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace CucumbersomeBoardGameLib.Boards
 {
 	/// <summary>
-	/// Representation of a single board in a board game.
+	/// Representation of a transition of a meeple or token from one board cell within the web to another one
 	/// </summary>
-	public interface IBoard
+	public interface IBoardCellTransition
 	{
 
 	}

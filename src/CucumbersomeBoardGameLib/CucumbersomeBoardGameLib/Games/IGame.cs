@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace CucumbersomeBoardGameLib.Games
 {
+	/// <summary>
+	/// Base interface for a game in general
+	/// </summary>
 	public interface IGame
 	{
 

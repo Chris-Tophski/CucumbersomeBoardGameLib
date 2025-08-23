@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CucumbersomeBoardGameLib.Games
+namespace CucumbersomeBoardGameLib.Boards
 {
 	/// <summary>
-	/// Base interface for games with cards
+	/// Representation of a cell in a web on a board, where meeples or tokens can be placed
 	/// </summary>
-	public interface ICardsGame
+	public interface IBoardCell
 	{
 
 	}
