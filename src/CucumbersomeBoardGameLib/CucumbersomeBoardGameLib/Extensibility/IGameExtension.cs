@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace CucumbersomeBoardGameLib.Extensibility
 {
+	/// <summary>
+	/// Base interface for game extensions
+	/// </summary>
 	public interface IGameExtension
 	{
 

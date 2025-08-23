@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace CucumbersomeBoardGameLib.Meeples
 {
+	/// <summary>
+	/// Representation of a tray of meeples
+	/// </summary>
 	public interface IMeeplesTray
 	{
 

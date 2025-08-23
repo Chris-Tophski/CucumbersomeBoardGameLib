@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace CucumbersomeBoardGameLib.Runs
 {
+	/// <summary>
+	/// Representation of the mode in which a game is played
+	/// </summary>
 	public interface IPlayMode
 	{
 

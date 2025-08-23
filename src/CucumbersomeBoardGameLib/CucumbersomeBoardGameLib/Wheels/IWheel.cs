@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CucumbersomeBoardGameLib.Games
+namespace CucumbersomeBoardGameLib.Wheels
 {
 	/// <summary>
-	/// Base interface for games with cards
+	/// Representation of a single wheel in a game,
+	/// used as an alternative to dice.
 	/// </summary>
-	public interface ICardsGame
+	public interface IWheel
 	{
 
 	}

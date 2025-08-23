@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace CucumbersomeBoardGameLib.Runs
 {
+	/// <summary>
+	/// Representation of the state of a game currently being played
+	/// </summary>
 	public interface IGameExecutionState
 	{
 

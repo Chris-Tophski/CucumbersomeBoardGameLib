@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace CucumbersomeBoardGameLib.Players
 {
+	/// <summary>
+	/// Representation of a tray of tokens
+	/// </summary>
 	public interface ITokenTray
 	{
 

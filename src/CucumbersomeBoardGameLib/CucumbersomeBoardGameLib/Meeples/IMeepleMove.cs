@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace CucumbersomeBoardGameLib.Meeples
 {
+	/// <summary>
+	/// Representation of a single move of a meeple
+	/// </summary>
 	public interface IMeepleMove
 	{
 

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace CucumbersomeBoardGameLib.Games
 {
+	/// <summary>
+	/// Base class for collections of games
+	/// </summary>
 	public abstract class GameCollectionBase
 	{
 
