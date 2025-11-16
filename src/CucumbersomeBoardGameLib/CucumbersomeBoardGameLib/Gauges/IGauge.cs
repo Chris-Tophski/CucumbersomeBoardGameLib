@@ -11,8 +11,8 @@ namespace CucumbersomeBoardGameLib.Gauges
 	/// The gauge may represent a value specific for the entire session
 	/// or some level definition of a player etc.
 	/// </summary>
-	public interface IGauge
+	public interface IGauge<TValue>
 	{
-
+		TValue CurrentValue { get; }
 	}
 }

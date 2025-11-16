@@ -11,6 +11,7 @@ namespace CucumbersomeBoardGameLib.Boards
 	/// </summary>
 	public interface IBoardCellState
 	{
+		IBoardCell Cell { get; }
 
 	}
 }

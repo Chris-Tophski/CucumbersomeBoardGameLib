@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace CucumbersomeBoardGameLib.Dice
 {
-	/// <summary>
-	/// Representation of a dice roll
-	/// </summary>
-	public interface IDiceRoll<TKey, TValue>
+	public interface IDiceSet
 	{
-		IDictionary<TKey, TValue> Dice { get; }
+		IDiceRoll<TKey, TValue> Roll<TKey, TValue>();
 	}
 }

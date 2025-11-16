@@ -10,8 +10,9 @@ namespace CucumbersomeBoardGameLib.Cards
 	/// Representation of a set of cards of any type
 	/// (base interface for card decks, card heaps, card hands etc.)
 	/// </summary>
-	public interface ICardSet
+	public interface ICardSet<TCard>
+		where TCard: ICard
 	{
-
+		IEnumerable<TCard> Cards { get; }
 	}
 }

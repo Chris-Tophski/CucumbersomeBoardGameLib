@@ -9,8 +9,9 @@ namespace CucumbersomeBoardGameLib.Meeples
 	/// <summary>
 	/// Representation of a tray of meeples
 	/// </summary>
-	public interface IMeeplesTray
+	public interface IMeeplesTray<TMeepleState>
+		where TMeepleState : IMeepleState
 	{
-
+		IEnumerable<IMeeple<TMeepleState>> Meeples { get; }
 	}
 }

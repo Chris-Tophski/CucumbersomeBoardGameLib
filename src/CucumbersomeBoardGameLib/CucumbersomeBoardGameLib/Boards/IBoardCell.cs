@@ -11,6 +11,6 @@ namespace CucumbersomeBoardGameLib.Boards
 	/// </summary>
 	public interface IBoardCell
 	{
-
+		string Id { get; }
 	}
 }

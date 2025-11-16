@@ -9,8 +9,9 @@ namespace CucumbersomeBoardGameLib.Dice
 	/// <summary>
 	/// Representation of a single die for dice games
 	/// </summary>
-	public interface IDie
+	public interface IDie<TValue>
 	{
-
+		TValue Roll();
+		IEnumerable<TValue> Values { get; }
 	}
 }

@@ -11,6 +11,7 @@ namespace CucumbersomeBoardGameLib.Boards
 	/// </summary>
 	public interface IBoardCellTransition
 	{
-
+		IBoardCell FromCell { get; }
+		IBoardCell ToCell { get; }
 	}
 }

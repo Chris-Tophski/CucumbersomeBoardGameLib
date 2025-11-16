@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace CucumbersomeBoardGameLib.Tokens
 {
-	/// <summary>
-	/// Representation of a token type
-	/// for categorizing or grouping tokens.
-	/// </summary>
-	public interface ITokenType
+	public interface ITokenState
 	{
 
 	}

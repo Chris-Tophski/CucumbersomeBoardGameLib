@@ -9,8 +9,9 @@ namespace CucumbersomeBoardGameLib.Meeples
 	/// <summary>
 	/// Representation of a meeple associated to a player, NPC, enemy, bank etc.
 	/// </summary>
-	public interface IMeeple
+	public interface IMeeple<TMeepleState>
+		where TMeepleState : IMeepleState
 	{
-
+		TMeepleState State { get; }
 	}
 }
